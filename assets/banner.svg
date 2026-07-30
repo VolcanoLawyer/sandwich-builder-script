@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b120a"/>
+      <stop offset="45%" stop-color="#2b1a0f"/>
+      <stop offset="100%" stop-color="#120c08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ffd27f" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffd27f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="breadTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8b06a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#8a5a2b" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="lettuce" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8fd18f" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#5aa85a" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <!-- Decorative sandwich layer stripes, low opacity, kept away from text zone -->
+  <g opacity="0.5">
+    <rect x="60" y="40" width="1080" height="14" rx="7" fill="url(#breadTop)"/>
+    <rect x="60" y="58" width="1080" height="8" rx="4" fill="url(#lettuce)"/>
+    <rect x="60" y="300" width="1080" height="8" rx="4" fill="url(#lettuce)"/>
+    <rect x="60" y="310" width="1080" height="14" rx="7" fill="url(#breadTop)"/>
+  </g>
+
+  <!-- soft floating circles as light decoration -->
+  <g opacity="0.12">
+    <circle cx="140" cy="90" r="60" fill="#ffcf8a"/>
+    <circle cx="1080" cy="270" r="90" fill="#ffb066"/>
+    <circle cx="990" cy="60" r="34" fill="#ffe3b0"/>
+    <circle cx="150" cy="290" r="40" fill="#ffbf7a"/>
+  </g>
+
+  <!-- thin connecting lines suggesting a list/script -->
+  <g stroke="#ffdca8" stroke-width="1" opacity="0.15">
+    <line x1="120" y1="140" x2="1080" y2="140"/>
+    <line x1="120" y1="150" x2="900" y2="150"/>
+    <line x1="120" y1="250" x2="1080" y2="250"/>
+    <line x1="120" y1="260" x2="800" y2="260"/>
+  </g>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" font-weight="700" fill="#ffffff">
+    <tspan x="600" dy="0">My Giant Sandwich Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0" font-size="17.3">A small Windows tool for messy sandwich orders — My Giant Sandwich Script builds the layer list so you don't…</tspan>
+  </text>
+</svg>
